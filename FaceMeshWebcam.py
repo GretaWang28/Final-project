@@ -3,7 +3,9 @@ import cv2
 import mediapipe as mp
 import time
 
-cap = cv2.VideoCapture("video/1.mp4")
+#cap = cv2.VideoCapture("video/1.mp4")
+#webcam
+cap = cv2.VideoCapture(0)
 pTime = 0
 # help us draw on our faces
 mpDraw = mp.solutions.drawing_utils
